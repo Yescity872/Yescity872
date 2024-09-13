@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 40px; /* Adjust based on the desired size */
+    width: auto;
+    display: block;
+}
+
+.welcome-section {
+    background: url('home.png') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section .welcome-message {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+}
+
+.welcome-section .welcome-message h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.welcome-section .welcome-message p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.welcome-section .welcome-message a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.welcome-section .welcome-message a:hover {
+    background-color: #555;
+}
+
+.explore-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.explore-section .content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.explore-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.explore-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.explore-section .btn-get-started {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #ff6600;
+    color: #ff6600;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.explore-section .btn-get-started:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.explore-section .image-container {
+    flex: 1;
+    text-align: right;
+}
+
+.explore-section .image-container img {
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.gallery-item h6 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('about.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+}
+
+.about-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.contact-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.contact-item:last-child {
+    border-right: none;
+}
+
+.contact-item i {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.contact-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+.contact-item p {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px; /* Adjusted padding for mobile */
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}                                                    
